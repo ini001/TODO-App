@@ -1,0 +1,176 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background: #ccc;
+    }
+    /* content */
+    
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    /* header */
+    
+    .header {
+        width: 100%;
+        height: 300px;
+        background: url(../img/mount.jpg) no-repeat;
+        background-size: 100% 100%;
+        border-radius: 15px 15px 0 0;
+        position: relative;
+    }
+    
+    .clear {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    
+    .clear i {
+        font-size: 30px;
+        color: #fff;
+        transition: all 2s ease;
+    }
+    
+    .clear i:hover {
+        cursor: pointer;
+        text-shadow: 1px 3px 5px #000;
+        transform: rotate(45deg);
+    }
+    
+    #date {
+        color: #fff;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 25px;
+    }
+    /* content */
+    
+    .content {
+        width: 100%;
+        height: 500px;
+        max-height: 500px;
+        background-color: #fff;
+        overflow: auto;
+    }
+    
+    .content::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .content ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .item {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 45px;
+        min-height: 45px;
+        position: relative;
+        list-style: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+    }
+    
+    .item i.co {
+        position: absolute;
+        padding-left: 25px;
+        left: 15px;
+        top: 10px;
+        font-size: 20px;
+    }
+    
+    .item i.co:hover {
+        cursor: pointer;
+    }
+    
+    .uil-check-circle {
+        color: #6eb200;
+    }
+    
+    .item p.text {
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        left: 70px;
+        top: 10px;
+        background-color: #fff;
+        max-width: 50%;
+        font-size: 25px;
+    }
+    
+    .lineThrough {
+        text-decoration: line-through;
+        color: #ccc;
+    }
+    
+    .item i.de {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        font-size: 30px;
+    }
+    
+    .item i.de:hover {
+        color: #af0000;
+        cursor: pointer;
+    }
+    /* add item */
+    
+    .add-to-do {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+    }
+    
+    .add-to-do i {
+        position: absolute;
+        font-size: 40px;
+        color: #4162f6;
+        left: 10px;
+        top: 5px;
+    }
+    
+    .add-to-do input {
+        position: absolute;
+        left: 52px;
+        top: 10px;
+        width: 420px;
+        height: 35px;
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    
+    .add-to-do input::-webkit-input-placeholder {
+        color: #4162f6;
+        font-size: 20px;
+    }
+    
+    .add-to-do input::-moz-placeholder {
+        color: #4162f6;
+        font-size: 20px;
+    }
+    
+    .add-to-do input:-ms-input-placeholder {
+        color: #4162f6;
+        font-size: 20px;
+    }
+    
+    .add-to-do input:-moz-placeholder {
+        color: #4162f6;
+        font-size: 20px;
+    }
